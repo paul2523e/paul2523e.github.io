@@ -5,7 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-geo-projection@4"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+<script src="static/script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/d3-color@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-interpolate@3"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3-scale-chromatic@3"></script>
+
 <style>
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
@@ -78,7 +90,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
           </div>
 
           <p class="w3-large"><i class="fa fa-microchip fa-fw w3-text-teal"></i>
-            <i class="fa fa-gears fa-fw w3-margin-right w3-text-teal"></i><b>Industrial Automation Skills</b></p>
+            <b>Industrial Automation Skills</b></p>
           <div class="w3-margin-left">
             <p></p>
             <div class="w3-light-grey w3-round-xlarge w3-small">
@@ -188,35 +200,37 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
         <div class="w3-container">
           <h5 class="w3-opacity"><b><a href="https://www.uni.edu.pe/" target="_blank">National University of Engineering </a></b></h5>
           <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2000 - 2006</h6>
-          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-teal"></i>Mechatronics Engineer</p>
+          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-teal"></i>Mechatronics Engineer <br>
+            ·	First prize  National Project’s contest (CONEIMERA 2006 by IEEE Peru)<br>
+            ·	TA of Control Engineering II  Course
+          </p>
           <hr>
         </div>
 
       </div>
 
-      <div class="w3-container w3-card w3-white">
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
         <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-check fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Certifications & Accomplishments</h2>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b> <a href="https://www.gatech.edu/about/rankings" target="_blank">Georgia Institude of Technology</a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2021 - 
-            <span class="w3-tag w3-teal w3-round">In progress</span> expected end 2023</h6>
-          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-teal"></i>
-            <a href="https://www.analytics.gatech.edu/" target="_blank">Master of Science in Analytics - </a>
-            <b>Track:</b> <a href="https://www.analytics.gatech.edu/curriculum/computational-data-analytics-track" 
-            target="_blank">Computational Data Analytics</a> - 3 courses completed - GPA: 4.0 of 4.0
-           
-            
-            
-          </p>
+          <h5 class="w3-opacity"><b> Project Managment Professional (PMP) / <a href="https://www.pmi.org/certifications/project-management-pmp" target="_blank">pmi.org</a></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015          
           <hr>
         </div>
         <div class="w3-container">
-          <h5 class="w3-opacity"><b><a href="https://www.uni.edu.pe/" target="_blank">National University of Engineering </a></b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2000 - 2006</h6>
-          <p><i class="fa fa-graduation-cap fa-fw w3-margin-right w3-text-teal"></i>Mechatronics Engineer</p>
+          <h5 class="w3-opacity"><b>Lean Six Sigma – Green Belt / <a href="https://www.o-i.com" target="_blank">o-i.com</a></b></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>20??</h6>
           <hr>
         </div>
 
+      </div>
+
+      <div class="w3-container w3-card w3-white w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-wine-bottle fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i> 
+          Glass Manufacturing Experience</h2>
+        <div class="w3-container" id="GlassManufacturingCanvas">
+          <svg id="map"></svg>
+          <hr>
+        </div>
       </div>
 
     <!-- End Right Column -->
