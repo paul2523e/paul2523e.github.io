@@ -1,38 +1,73 @@
-const outerWidth = 1100;
-const outerHeight = 800;
-const margin = {left: 0, top: 0, right: 0, bottom: 0};
-const width = outerWidth - margin.left - margin.right;
-const height = outerHeight - margin.top - margin.bottom;
+var margin = {top: 2, right: 2, bottom: 2, left: 2}
+width = document.getElementById('GlassManufacturingCanvasDiv').offsetWidth - margin.left - margin.right
+console.log("width :",width)
+height = window.innerHeight - margin.top - margin.bottom 
 
-var projection = d3.geoMercator();
+var projection = d3.geoMercator().translate([width/2, height/2]);
 var path = d3.geoPath().projection(projection);
 
-Promise.all([
-  d3.json("/static/neighborhood_boundaries.json")
-]).then(values => createMap(values[0]));
+var MyCountries = ["Peru","Ecuador","Argentina","Brazil","Mexico","Chile","Colombia","United States of America","Canada","Portugal","Italy"]
 
-function createMap(neighborhoods) {
 
-  var svg = d3.select("#map")
-  .attr("width", outerWidth)
-  .attr("height", outerHeight)
-  .append("g")
+
+
+var svg = d3.select("#map")
+  .attr("width", width)
+  .attr("height", height)
   .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  var geojson = topojson.feature(neighborhoods, neighborhoods.objects["Boundaries - Neighborhoods"]);
-  projection.fitExtent([[margin.left, margin.top], [width, height]], geojson);
+var tooltip = d3.select("body").append("div")
+  .style("opacity", 0)
+  .attr("class", "tooltip")
+  .style("background-color", "gray")
+  .style("border", "solid")
+  .style("border-width", "1px")
+  .style("border-radius", "5px")
+  .style("padding", "10px")
 
+Promise.all([
+  //d3.json("/static/neighborhood_boundaries.json")
+  d3.json("/static/world_countries.json")
+]).then(values => createMap(values[0].features));
 
+function createMap(worldfeatures) {
+
+  console.log(worldfeatures)
   
   
-  svg.append("g").attr("id", "neighboorhoods").selectAll("path")
-    .data(geojson.features)
+  
+  svg.append("g").attr("id", "neighboorhoods")
+    .attr("transform", "scale(1.2)")
+    .selectAll("path")
+    .data(worldfeatures)
     .enter()
     .append("path")
-    .style("fill", function (d) {
-      return "LightGray";
-    }).style("stroke", "black").style("stroke-width", 0.5)
-    .attr("d", path);
+    .attr("class","country")
+    .attr("d", path)
+    .attr("fill", function(d){ 
+        //console.log(gameDataFiltered);
+        
+        if(MyCountries.includes(d.properties.name)){
+            
+            return "blue"
+            
+        }else{
+            return "grey"
+        }
+        
+    })
+    .on("mouseover", function(event,d) {
+      tooltip.transition()
+        .duration(200)
+        .style("opacity", .5);
+      })
+      .on("mousemove", function(event,d) {
+
+        tooltip.html("<p>"+d.properties.name+"<br></p>")
+          .style("left", (event.pageX) + "px")
+          .style("top", (event.pageY - 2) + "px");
+        })
+    .on('mouseout', tooltip.transition().duration(200).style("opacity", 0))
   ;
   
   // From https://www.d3indepth.com/zoom-and-pan/:
