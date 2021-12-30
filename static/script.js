@@ -37,7 +37,7 @@ function createMap(worldfeatures) {
   device_wdt = (window.innerWidth > 0) ? window.innerWidth : screen.width
 
   svg.append("g").attr("id", "neighboorhoods")
-    .attr("transform", device_wdt > 601 ? "scale(1.5)" : "scale(4.5)")
+    .attr("transform", device_wdt > 601 ? "scale(1.5)" : "scale(0.5)")
     .selectAll("path")
     .data(worldfeatures)
     .enter()
