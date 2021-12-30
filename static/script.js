@@ -1,10 +1,11 @@
 var margin = {top: 2, right: 2, bottom: 2, left: 2}
-width = document.getElementById('GlassManufacturingCanvasDiv').offsetWidth - margin.left - margin.right
-
+//width = document.getElementById('GlassManufacturingCanvasDiv').offsetWidth - margin.left - margin.right
+width = (window.innerWidth > 0) ? document.getElementById('GlassManufacturingCanvasDiv').offsetWidth : screen.width
 height = document.getElementById('GlassManufacturingCanvasDiv').offsetWidth - margin.top - margin.bottom 
 
+device_wdt = (window.innerWidth > 0) ? window.innerWidth : screen.width
 
-var projection = d3.geoMercator().translate([width*3/5, height*2/5]);
+var projection = d3.geoMercator().translate(device_wdt > 601 ? [width*3/5,height*2/5] : [width*3*3/5,height*3*2/5]);
 var path = d3.geoPath().projection(projection);
 
 var MyCountries = ["Peru","Ecuador","Argentina","Brazil","Mexico","Chile","Colombia","United States of America","Canada","Portugal","Italy"]
@@ -34,7 +35,7 @@ function createMap(worldfeatures) {
 
   console.log(worldfeatures)
   
-  device_wdt = (window.innerWidth > 0) ? window.innerWidth : screen.width
+  
 
   svg.append("g").attr("id", "neighboorhoods")
     .attr("transform", device_wdt > 601 ? "scale(1.5)" : "scale(0.5)")
