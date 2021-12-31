@@ -27,11 +27,11 @@ var tooltip = d3.select("body").append("div")
   .style("padding", "10px")
 
 Promise.all([
-  //d3.json("/static/neighborhood_boundaries.json")
-  d3.json("/static/world_countries.json")
-]).then(values => createMap(values[0].features));
+  d3.json("/static/world_countries.json"),
+  d3.tsv("/static/GlassExperiencePerCountry.txt")
+]).then(values => createMap(values[0].features,values[1]));
 
-function createMap(worldfeatures) {
+function createMap(worldfeatures,GlassExperiencePerCountry) {
 
   console.log(worldfeatures)
   
@@ -56,7 +56,7 @@ function createMap(worldfeatures) {
       })
       .on("mousemove", function(event,d) {
 
-        tooltip.html(CreateToolTipHtml(d))
+        tooltip.html(CreateToolTipHtml(d.properties.name))
           .style("left", (event.pageX) + "px")
           .style("top", (event.pageY - 2) + "px");
         })
@@ -70,10 +70,19 @@ function createMap(worldfeatures) {
     )
   ;
 
-  function CreateToolTipHtml(country_feature){
-    return "<p class=\"w3-text-grey\">"+country_feature.properties.name+"<br></p>"
+  function CreateToolTipHtml(country_name){
+    var xp = GlassExperiencePerCountry.filter(field => field.Country == country_name)
+    console.log("xp: ",xp)
+    var html_text = "<p class=\"w3-margin-right w3-large w3-text-teal\">" + country_name + ": <br></p><ul class=\"w3-large w3-text-gray\">"
+    xp.forEach(function(item){
+      html_text = html_text + "<li><b>" + item.Company + " "	+ item.Plant + " plant:</b> "  + item.Year + " "+	item.Project + " " + item.Scope	+ " " + item.Type + " " +	item.Year + "</li>"
+      
+    })
+    html_text = html_text + "</ul><br>"
+    console.log("html_text: ",html_text)
     // pending to read file with info about projects (i.e. scv) and maybe add interactivty/animations to 
     //display graphically the information.
+    return html_text
   }
   
   // From https://www.d3indepth.com/zoom-and-pan/:

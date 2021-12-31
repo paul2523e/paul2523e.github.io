@@ -1,0 +1,9 @@
+Country	Company	Plant	Project	Scope	Type	Year
+Colombia	O-I	Zipaquira	Furnace E brownfield	"Full brownfield, constructing a melter and four production lines. Equiment from production lines moved from other plant closing on the same country. "		
+Colombia	O-I	Zipaquira	Forming machine D3 - partial upgrade of control system.	Installation of O-I IDS control system.		
+Colombia	O-I	Soacha	A0 and A2 forming machine repair.	Installation of BEG FlexIS control system for both lines.		
+Peru	O-I	Lurin	Furnace B major repair			
+Peru	O-I	Lurin	Furnace C major repair			
+Peru	O-I	Callao	Furnace A Major repair	Installation of furnace control system		
+Peru	O-I	Callao	"Forehearth A1,A2,A3 repairs"	Transition on-the-fly of the obsolete control system to the new version of O-I propiertary control system.		
+Portugal	B&A	Avintes	Furnace Major Repair	Installation of O-I propietary furnace control system.		
