@@ -62,7 +62,7 @@ function createMap(worldfeatures,GlassExperiencePerCountry) {
         })
     .on('mouseout', function(event,d)
     {
-      console.log("mouse out")
+      
       tooltip.transition()
       .duration(200)
       .style("opacity", 0)
@@ -73,15 +73,15 @@ function createMap(worldfeatures,GlassExperiencePerCountry) {
   function CreateToolTipHtml(country_name){
     var xp = GlassExperiencePerCountry.filter(field => field.Country == country_name)
     console.log("xp: ",xp)
-    var html_text = "<p class=\"w3-margin-right w3-large w3-text-teal\">" + country_name + ": <br></p><ul class=\"w3-large w3-text-gray\">"
+    var html_text = "<p class=\"w3-margin-right w3-large w3-text-teal\"> Projects in " + country_name + ": <br></p><ul class=\"w3-text-gray\">"
     xp.forEach(function(item){
-      html_text = html_text + "<li><b>" + item.Company + " "	+ item.Plant + " plant:</b> "  + item.Year + " "+	item.Project + " " + item.Scope	+ " " + item.Type + " " +	item.Year + "</li>"
+      html_text = html_text + "<li><b>" + item.Company + " "	+ item.Plant + ":</b> "  + item.Year + " "+	item.Project + " " + item.Scope	+ " " + item.Type + " " +	item.Year + "</li>"
       
     })
     html_text = html_text + "</ul><br>"
     console.log("html_text: ",html_text)
-    // pending to read file with info about projects (i.e. scv) and maybe add interactivty/animations to 
-    //display graphically the information.
+    // pending  add interactivty/animations to 
+    //display graphically the information, and other on background like force on D3 to impress more
     return html_text
   }
   
