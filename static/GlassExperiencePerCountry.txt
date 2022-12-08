@@ -7,16 +7,18 @@ Peru	O-I	Lurin	Furnace C major repair	Upgrade of Forming machine servo control s
 Peru	O-I	Callao	Furnace A Major repair	Installation of furnace control system		
 Peru	O-I	Callao	Forehearths repair	Transition on-the-fly of the obsolete control system to the new version of O-I propiertary control system.		
 Portugal	B&A	Avintes	Furnace Major Repair	Installation of O-I propietary furnace control system.		
-USA	O-I	"Oakland, CA"	Line C2 Addition	Forehearth process control addition		
-USA	O-I	"Toano,VA"	Furnace Major Repair			
-USA	O-I	"Waco, TX"	Forehearth process control addition	Forehearth process control addition		
+United States Of America	O-I	"Oakland, CA"	Line C2 Addition	Forehearth process control addition		
+United States Of America	O-I	"Toano,VA"	Furnace Major Repair			
+United States Of America	O-I	"Waco, TX"	Forehearth process control addition	Forehearth process control addition		
+United States Of America	O-I	"Brockway, PA"	Forehearth process control addition	Forehearth process control addition		
 Canada	O-I	Brampton	Furnace A Major repair	Furnace control system installation.		
 Chile	Cristal Chile		Llay Llay F Furnace Major Repair	Furnace control system installation.		
 Italy	O-I	Asti				
 Mexico	O-I	Monterrey	Scope and Budget definition for varios projects.			
 Mexico	O-I	Los Reyes	Scope and Budget definition for varios projects.			
 Mexico	O-I	Nueva Fanal	Scope and Budget definition for varios projects.			
-Mexico	O-I	Toluca	Scope and Budget definition for varios projects.			
+Mexico	O-I	Toluca	Scope and Budget definition for varios projects.
+Mexico	O-I JV	IVC	Production Line 34 Automation Project. Evaluation of different new glass technologies.			
 Argentina	O-I	Rosario	Furnace 1 Major Repair			
 Argentina	O-I	Rosario	Furnace 3 Major Repair			
 Brazil	O-I	Sao Paulo	Furnace 6 Major Repair			
