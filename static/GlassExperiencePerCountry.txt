@@ -22,8 +22,8 @@ Mexico	O-I	Los Reyes	Scope and Budget definition for varios projects.
 Mexico	O-I	Nueva Fanal	Scope and Budget definition for varios projects.			
 Mexico	O-I	Toluca	Scope and Budget definition for varios projects.
 Mexico	O-I JV	IVC	Production Line 34 Automation Project. Evaluation of different new glass technologies.			
-Argentina	O-I	Rosario	Furnace 1 Major Repair			
-Argentina	O-I	Rosario	Furnace 3 Major Repair			
+Argentina	O-I	Rosario	Furnace 1 Major Repair, installation of furnace control system (MCS 3)			
+Argentina	O-I	Rosario	Furnace 3 Major Repair, installation of furnace control system (DFC)			
 Brazil	O-I	Sao Paulo	Furnace 6 Major Repair, furnace control system ugprade (MCS 3)			
 Brazil	O-I	Sao Paulo	Furnace 8 Major Repair, furnace control system upgrade (MCS 3)				
 Brazil	O-I	Vitoria	Scope and Budget definition for varios projects.			
