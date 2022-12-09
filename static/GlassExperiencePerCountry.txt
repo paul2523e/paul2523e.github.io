@@ -16,6 +16,7 @@ United States of America	O-I	"Brockway, PA"	Forehearth process control addition	
 Canada	O-I	Brampton	Furnace A Major repair	Furnace control system installation.		
 Chile	Cristal Chile		Llay Llay F Furnace Major Repair	Furnace control system installation.		
 Italy	O-I	Asti	Audit on a couple of the first BEG ugprades for O-I Machines					
+Mexico	DIFA	San Luis Potosí 	Upgrade of furnace control system (MCS to MCS II) and some of the field equipment.
 Mexico	O-I	Monterrey	Scope and Budget definition for varios projects.			
 Mexico	O-I	Los Reyes	Scope and Budget definition for varios projects.			
 Mexico	O-I	Nueva Fanal	Scope and Budget definition for varios projects.			
@@ -26,5 +27,5 @@ Argentina	O-I	Rosario	Furnace 3 Major Repair
 Brazil	O-I	Sao Paulo	Furnace 6 Major Repair			
 Brazil	O-I	Sao Paulo	Furnace 8 Major Repair			
 Brazil	O-I	Vitoria	Scope and Budget definition for varios projects.			
-Brazil	O-I	Recife	Scope and Budget definition for varios projects.			
+Brazil	O-I	Recife	Scope,Budget, engineering for varios projects.			
 Brazil	O-I	Rio de Janeiro	Rio 9 Forming Machine installations. Scope and Budget definition for varios projects.			
