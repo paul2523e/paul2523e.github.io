@@ -1,21 +1,21 @@
 Country	Company	Plant	Project	Scope	Type	Year
 Colombia	O-I	Zipaquira	Furnace E brownfield	Furnace control system installation (DFC)		
 Colombia	O-I	Zipaquira	Furnace B Major Repair. Furnace control system installation (MCS 3)		
-Colombia	O-I	Zipaquira	Forming machine D3 - partial upgrade of control system.	Installation of O-I forming machine control system.		
-Colombia	O-I	Soacha	Installation of FlexIS Control systems for two production lines.	
+Colombia	O-I	Zipaquira	Forming machine D3 - partial upgrade of control system.	Installation of O-I forming machine control system (IDS).		
+Colombia	O-I	Soacha	Installation of BEG FlexIS Control systems for two production lines.	
 Colombia	O-I	Soacha	Furnace A Major Repair. Furnace control system installation (DFC)
 Peru	O-I	Lurin	Furnace B major repair	upgrade of melter control system (MCS 3) 		
 Peru	O-I	Lurin	Furnace C major repair	Upgrade of Forming machine servo control system and furnace control system (DFC/IFB)		
 Peru	O-I	Callao	Furnace A Major repair	Installation of furnace control system (DFC). 		
 Peru	O-I	Callao	Forehearths repair	Transition on-the-fly of the obsolete control system to the new version of O-I propiertary control system (DFC).		
-Portugal	B&A	Avintes	Furnace Major Repair	Installation of O-I propietary furnace control system (MCS).		
-United States of America	O-I	"Oakland, CA"	Line C2 Addition	Forehearth process control addition		
-United States of America	O-I	"Toano,VA"	Furnace Major Repair			
-United States of America	O-I	"Waco, TX"	Forehearth process control addition	Forehearth process control addition		
-United States of America	O-I	"Brockway, PA"	Forehearth process control addition	Forehearth process control addition		
+Portugal	B&A	Avintes	Furnace Major Repair	Upgrade to O-I propietary furnace control system (MCS II).		
+United States of America	O-I	"Oakland, CA"	Line C2 Addition	Forehearth process control extension (MCS I).		
+United States of America	O-I	"Toano,VA"	Furnace Major Repair, control system upgrade (MCS II)			
+United States of America	O-I	"Waco, TX"	Forehearth process control addition (MCS 3)		
+United States of America	O-I	"Brockway, PA"	Data Analysis using new analytics tools deployed.		
 Canada	O-I	Brampton	Furnace A Major repair	Furnace control system installation (MCS3).		
 Chile	Cristal Chile		Llay Llay F Furnace Major Repair	Furnace control system installation.		
-Italy	O-I	Asti	Audit on a couple of the first BEG ugprades for O-I Machines					
+Italy	O-I	Asti	Audit on a couple of the first BEG FlexIS ugprades for O-I Machines					
 Mexico	DIFA	San Luis Potosí 	Upgrade of furnace control system (MCS to MCS II) and field equipment.
 Mexico	O-I	Monterrey	Scope and Budget definition for varios projects.			
 Mexico	O-I	Los Reyes	Scope and Budget definition for varios projects.			
