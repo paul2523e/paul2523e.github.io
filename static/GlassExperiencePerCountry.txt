@@ -1,6 +1,6 @@
 Country	Company	Plant	Project	Scope	Type	Year
 Colombia	O-I	Zipaquira	Furnace E brownfield	Furnace control system installation (DFC)		
-Colombia	O-I	Zipaquira	Furnace B Major Repair. Furnace control system installation (MCS3)		
+Colombia	O-I	Zipaquira	Furnace B Major Repair. Furnace control system installation (MCS 3)		
 Colombia	O-I	Zipaquira	Forming machine D3 - partial upgrade of control system.	Installation of O-I forming machine control system.		
 Colombia	O-I	Soacha	Installation of FlexIS Control systems for two production lines.	
 Colombia	O-I	Soacha	Furnace A Major Repair. Furnace control system installation (DFC)
@@ -29,3 +29,4 @@ Brazil	O-I	Sao Paulo	Furnace 8 Major Repair, furnace control system upgrade (MCS
 Brazil	O-I	Vitoria	Scope and Budget definition for varios projects.			
 Brazil	O-I	Recife	Scope,Budget, engineering for varios projects.			
 Brazil	O-I	Rio de Janeiro	Rio 9 Forming Machine installations. Scope and Budget definition for varios projects.			
+Ecuador	O-I	Guayaquil	Guayaquil A Major Repair. Upgrade of control system (MCS II)	
