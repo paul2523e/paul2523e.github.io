@@ -25,8 +25,9 @@ Mexico	O-I JV	IVC	Production Line 34 Automation Project. Evaluation of different
 Argentina	O-I	Rosario	Furnace 1 Major Repair, installation of furnace control system (MCS 3)			
 Argentina	O-I	Rosario	Furnace 3 Major Repair, installation of furnace control system (DFC)			
 Brazil	O-I	Sao Paulo	Furnace 6 Major Repair, furnace control system ugprade (MCS 3)			
-Brazil	O-I	Sao Paulo	Furnace 8 Major Repair, furnace control system upgrade (MCS 3)				
+Brazil	O-I	Sao Paulo	Furnace 8 Major Repair, furnace control system upgrade (MCS 3)			
+Brazil	O-I	Sao Paulo	Line 64 BEG FlexIS upgrade.			
 Brazil	O-I	Vitoria	Scope and Budget definition for varios projects.			
 Brazil	O-I	Recife	Scope,Budget, engineering for varios projects.			
-Brazil	O-I	Rio de Janeiro	Rio 9 Forming Machine installations. Scope and Budget definition for varios projects.			
+Brazil	O-I	Rio de Janeiro	Rio 9 Forming Machine installations (O-I IDS/CS3). Scope and Budget definition for varios projects.			
 Ecuador	O-I	Guayaquil	Guayaquil A Major Repair. Upgrade of control system (MCS II)	
