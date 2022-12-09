@@ -6,17 +6,17 @@ Colombia	O-I	Soacha	Installation of FlexIS Control systems for two production li
 Colombia	O-I	Soacha	Furnace A Major Repair. Furnace control system installation (DFC)
 Peru	O-I	Lurin	Furnace B major repair	upgrade of melter control system (MCS 3) 		
 Peru	O-I	Lurin	Furnace C major repair	Upgrade of Forming machine servo control system and furnace control system (DFC/IFB)		
-Peru	O-I	Callao	Furnace A Major repair	Installation of furnace control system		
-Peru	O-I	Callao	Forehearths repair	Transition on-the-fly of the obsolete control system to the new version of O-I propiertary control system.		
-Portugal	B&A	Avintes	Furnace Major Repair	Installation of O-I propietary furnace control system.		
+Peru	O-I	Callao	Furnace A Major repair	Installation of furnace control system (DFC). 		
+Peru	O-I	Callao	Forehearths repair	Transition on-the-fly of the obsolete control system to the new version of O-I propiertary control system (DFC).		
+Portugal	B&A	Avintes	Furnace Major Repair	Installation of O-I propietary furnace control system (MCS).		
 United States of America	O-I	"Oakland, CA"	Line C2 Addition	Forehearth process control addition		
 United States of America	O-I	"Toano,VA"	Furnace Major Repair			
 United States of America	O-I	"Waco, TX"	Forehearth process control addition	Forehearth process control addition		
 United States of America	O-I	"Brockway, PA"	Forehearth process control addition	Forehearth process control addition		
-Canada	O-I	Brampton	Furnace A Major repair	Furnace control system installation.		
+Canada	O-I	Brampton	Furnace A Major repair	Furnace control system installation (MCS3).		
 Chile	Cristal Chile		Llay Llay F Furnace Major Repair	Furnace control system installation.		
 Italy	O-I	Asti	Audit on a couple of the first BEG ugprades for O-I Machines					
-Mexico	DIFA	San Luis Potosí 	Upgrade of furnace control system (MCS to MCS II) and some of the field equipment.
+Mexico	DIFA	San Luis Potosí 	Upgrade of furnace control system (MCS to MCS II) and field equipment.
 Mexico	O-I	Monterrey	Scope and Budget definition for varios projects.			
 Mexico	O-I	Los Reyes	Scope and Budget definition for varios projects.			
 Mexico	O-I	Nueva Fanal	Scope and Budget definition for varios projects.			
@@ -24,8 +24,8 @@ Mexico	O-I	Toluca	Scope and Budget definition for varios projects.
 Mexico	O-I JV	IVC	Production Line 34 Automation Project. Evaluation of different new glass technologies.			
 Argentina	O-I	Rosario	Furnace 1 Major Repair			
 Argentina	O-I	Rosario	Furnace 3 Major Repair			
-Brazil	O-I	Sao Paulo	Furnace 6 Major Repair			
-Brazil	O-I	Sao Paulo	Furnace 8 Major Repair			
+Brazil	O-I	Sao Paulo	Furnace 6 Major Repair, furnace control system ugprade (MCS 3)			
+Brazil	O-I	Sao Paulo	Furnace 8 Major Repair, furnace control system upgrade (MCS 3)				
 Brazil	O-I	Vitoria	Scope and Budget definition for varios projects.			
 Brazil	O-I	Recife	Scope,Budget, engineering for varios projects.			
 Brazil	O-I	Rio de Janeiro	Rio 9 Forming Machine installations. Scope and Budget definition for varios projects.			
